@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .container-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100vw;
+  }
+
+  .container-header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 980px;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: center;
+}
+
+.div-img{
+    position: relative;
+}
+
+.div-texts{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+
+.txt-header1, .txt-header2{
+    background-color: white;
+    height: 64px;
+    width: 43%;
+}
+
+.txt-header2{
+    align-items: center;
+    text-align: end;
+    margin-left: 200px;
+    padding-right: 8px;
+}
+
+.txt-header1{
+    text-align: start;
+    padding-left: 8px;
+    margin-right: 200px;
+    border-left: 3px solid #571AF2;
+    border-top: 3px solid #571AF2; 
+}
+
+.first-section{
+    display: flex;
+    flex-direction: column;
+    max-width: 1640px;
+    height: 1440px;
+    align-items: center;
+}
+
+.maisSobre{
+    margin-top: 30px;
+    width: 80%;
+    height: 54px;
+    text-align: left;
+    padding-left: 30px;
+    border-top: 2px solid #571AF2;
+    height: 43%;
+}
+
+.maisSobre h2{
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container-first-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.container-first-section span{
+    width: 40%;
+}
+
+.nav-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 57%;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.link-nav-home{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 840px;
+    margin-top: 18px;
+}
+
+.link-nav-home span{
+    width: 43%;
+}
+
+.dinamic-arrow{
+    display: flex;
+    width: 50%;
+}
+
+.txt-link-nav{
+    text-decoration: none;
+    color: #0f0f0f;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+.dinamic-arrow img{
+    transition: transform 0.8s ease-out;
+}
+
+
+.dinamic-arrow:hover img{
+    transform: translateX(100%);
+    
+}
